@@ -1,0 +1,10 @@
+services:
+  - type: worker
+    name: telegram-random-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7871137480:AAEffe0FUU35dT93i48MceOaiPy_jCEDHCg
