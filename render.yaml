@@ -9,6 +9,6 @@ services:
     startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
-        value: "ТВОЙ_ТОКЕН"
+        value: "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
       - key: RENDER_PYTHON_VERSION
         value: "3.10"
